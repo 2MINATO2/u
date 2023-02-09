@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf')format('opemtype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'idroid';
+}
+body{
+    background-color: #68F79C;
+}
+header{
+    background-image:linear-gradient(to top ,#0E612C, #39E678);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    height: 200px;
+}
+p{
+    margin-top: 20px;
+}
+ul{
+    margin-top: 20px;
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+}
+li{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    
+}
+li:hover{
+    background-color: #18AD4F;
+    cursor: pointer;
+    transition: 1.5s;
+}
+main{
+    margin: auto;
+    width: 900px;
+    height: 2200px;
+    background-color: #ffffffd8;
+    border-radius: 0px 0px 10px 10px;
+}
+.texto{
+    text-align: justify;
+    margin: 15px;
+    text-indent: 30px;
+}
+#h1{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #3f8f5c;
+    
+}
+.h2{
+    margin-left: 20px;
+    color: #1dee5c;
+    background-image: linear-gradient(to right,#44996385,#ffffff6b);
+}
+img{
+    margin-left: 5%;
+}
+#image{
+    margin-left: 32%;
+}
+iframe{
+    margin-left: 6%;
+    margin-top: 30px;
+}
+#video{
+    width: 900px;
+    height: 400px;
+    background-color:#3f8f5c ;
+}
+#caixa{
+    margin: auto;
+    margin-top: 20px;
+    width: 850px;
+    height: 400px;
+    background-color:#3bb88e70;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+    background-color: #36c074;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+#l{
+    margin-left: 20px;
+    width: 200px;
+    height: 150px;
+}
+#r{
+    margin-left: 300px;
+    width: 200px;
+    height: 150px;
+}
+#tudo{
+    display: flex;
+}
+a{
+    color: #18AD4F;
+    font-weight: bold;
+    text-decoration: none;
+}
+#fim{
+    text-align: center;
+    width: 1301px;
+    height: 20px;
+    background-color: #1caf59;
+    color: white;
+}
